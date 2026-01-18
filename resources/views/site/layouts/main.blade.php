@@ -60,7 +60,7 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <img src="{{asset('img/marca/marca-site.svg')}}" alt="marca">
@@ -194,21 +194,21 @@
                         <!-- <a class="footer-icons-redes" href="">
                             <i class="bi bi-linkedin"></i>
                         </a> -->
-                        <a class="footer-icons-redes" target="_blank" href="https://www.facebook.com/share/1Bs8xvqeFQ/?mibextid=wwXIfr">
-                            <i class="bi bi-facebook"></i>  
+                        <a class="footer-icons-redes" target="_blank" href="https://www.instagram.com/psimichellegonzalez/">
+                            <i class="bi bi-facebook"></i> 
                         </a>
-                        <a class="footer-icons-redes" target="_blank" href="https://www.instagram.com/fronteiradigitalfd?igsh=NTJkNmxub3duaGl4&utm_source=qr">
+                        <a class="footer-icons-redes" target="_blank" href="https://www.instagram.com/psimichellegonzalez/">
                             <i class="bi bi-instagram"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col-4" id="footer-col2">
                     <h3>Endereço</h3>
-                    <div class="footer-contato">
+                    <div class="footer-contato" id="box-icon-endereco">
                         <div>
                             <i class="bi bi-geo-alt"></i>
                         </div>
-                        <a href="#footer" class="texto-icons">Ananindeua - PA - Brasil</a>
+                        <a href="#footer" class="texto-icons">Cidade Nova I WE 9A, n° 01A Sala 01 Perímetro: Rua da Providência, Av. Três Corações, e - Cidade Nova, Ananindeua - PA, 67130-080</a>
                     </div>
                     <div class="footer-contato">
                         <div>
@@ -220,7 +220,7 @@
                         <div>
                             <i class="bi bi-telephone"></i>
                         </div>
-                        <a href="#" target="_blank" class="texto-icons">(91) 99999-9999</a>
+                        <a href="#" target="_blank" class="texto-icons">(91) 99840-7653</a>
                     </div>
                 </div>
                 <div class="col-4" id="footer-col3">

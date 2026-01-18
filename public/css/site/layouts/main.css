@@ -125,6 +125,11 @@ footer{
     margin-right: 7px;
 }
 
+#box-icon-endereco{
+    display: flex;
+    align-items: start;  
+}
+
 #footer-linha{
     width: 95%;
     height: 1px;
@@ -148,14 +153,14 @@ footer{
 
     #navbar{
         height: 70px;
-        background-color: #000000;
+        background-color: #FFFFFF;
         border-bottom: 0.2px solid #DCDCDC;
         top: 0px;
         visibility: visible;
     }
     
     #navbar div{
-        background-color: #000000;
+        background-color: #FFFFFF;
         padding: unset;
         position: relative;
         top: 0px;
@@ -172,7 +177,7 @@ footer{
     }
 
     .navbar-collapse{
-        background-color: #000000;
+        background-color: #FFFFFF;
         position: relative;
         top: 50px;
         width: 100%;
