@@ -7,21 +7,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
         <!-- <link rel="icon" href="{{ asset('img/marca/icon-geral.png') }}" type="image/x-icon"> -->
-        <link rel="icon" href="{{ asset('img/marca/icon-geral-black.png') }}">
+        <link rel="icon" href="{{ asset('img/marca/favcon.png') }}">
 
         <!-- SEO Essencial -->
-        <title>Single Page</title>
-        <meta name="description" content="Empresa especializada em soluções profissionais, atendimento de qualidade e serviços completos para empresas e clientes.">
-        <meta name="keywords" content="empresa, serviços, tecnologia, software, soluções empresariais, atendimento profissional, negócios">
-        <meta name="author" content="Fronteira Digital">
+        <title>Psicóloga Michelle González</title>
+        <meta name="description" content="Psicoterpia baseada em evidências. Aplicando ciência para transformar vidas.">
+        <meta name="keywords" content="psicologia, neuropsicologia, terapia cognitivo-comportamental, psicoterapia, atendimento online">
+        <meta name="author" content="Psicóloga Michelle González">
         <meta name="robots" content="index, follow">
 
         <!-- Open Graph (Facebook, WhatsApp, etc) -->
-        <meta property="og:title" content="Fronteira Digital | Soluções Profissionais">
-        <meta property="og:description" content="Atendimento de qualidade e soluções que fazem sua empresa crescer.">
+        <meta property="og:title" content="Psicóloga Michelle González">
+        <meta property="og:description" content="Psicoterapia com empatia e profissionalismo. Estamos aqui para te ouvir e apoiar no seu processo emocional.">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.fronteiradigital.com">
-        <!-- <meta property="og:image" content="https://www.fronteiradigital.com/public/img/marca/marca-seo-whatsapp.png"> -->
+        <meta property="og:url" content="https://www.demonstracaomichellegonzalez.fronteiradigital.com">
+        <meta property="og:image" content="https://www.demonstracaomichellegonzalez.fronteiradigital.com/public/img/marca/marca-seo-whatsapp.png">
 
         <!-- SEO para Google -->
         <!-- <meta name="google-site-verification" content="drGofh66g7t7PNHIAlPmUrM0tk1YiUppxJRDheliUI4"> -->
