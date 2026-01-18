@@ -2,6 +2,9 @@
 
 return [
 
+    'email_sistema_password'=>env('EMAIL_SISTEMA_PASSWORD',''),
+    'email_sistema'=>env('EMAIL_SISTEMA',''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

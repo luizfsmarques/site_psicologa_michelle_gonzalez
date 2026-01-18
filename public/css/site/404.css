@@ -1,0 +1,55 @@
+.box-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.box-img img{
+    width: 350px;
+    width: 350px;
+}
+
+h1,h2{
+    font-family: BeVietnamPro-bold;
+    color: #074058;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p{
+    font-family: BeVietnamPro-regular;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn{
+    text-align: center;
+}
+
+a{
+    all:unset;
+    text-decoration:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: BeVietnamPro-medium;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #074058;
+    background-color: #FFFFFF;
+    border: 2px solid #074058;
+    border-radius: 5rem;
+    width:250px;
+    height: 60px;
+    margin: auto;
+}
+
+a:hover{
+    cursor:pointer;
+    color: #FFFFFF;
+    background-color: #074058;
+    border: unset;
+    scale: 1.01;
+}
+

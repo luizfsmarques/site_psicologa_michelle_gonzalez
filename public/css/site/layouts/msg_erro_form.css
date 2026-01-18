@@ -1,0 +1,30 @@
+/* 
+    Mensagem para o usuário
+*/
+#erro-form{
+    display: flex;
+    align-items: center;
+    top: 0px;
+    width: 100%;
+    height: 200px;
+    z-index: 3000;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+#erro-form p{
+    height: 100%;
+    position: relative;
+    top:5px;
+}
+
+#fechar-erro-form{
+    font-size: 1.2rem;
+    position: absolute;
+    right: 2.5%;
+    top: 35px;
+}
+
+#fechar-erro-form:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,901 @@
+.vazio{
+    width: 100%;
+    height: 50px;
+    display: none;
+}
+
+/*
+    banner
+*/
+
+#banner
+{
+    width: 100%;   
+}
+
+.carousel-inner{
+    height: 100%;    
+}
+
+.carousel-item{
+    height: 100%;
+    transition: 1s;
+}
+
+.img-banner{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption{
+    height: 90%;
+    z-index: 10;
+    transition: .1s;
+    display:flex;
+    align-items:center;
+}
+
+.carousel-caption h1,
+.carousel-caption p,
+.carousel-caption a{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 60px;
+}
+
+.carousel-caption h1{
+    width: 90%;
+    font-family: BeVietnamPro-bold;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+.carousel-caption p{
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    color: #FFFFFF;
+    width: 90%;
+}
+
+.btn-saiba-mais{
+    all:unset;
+    text-decoration:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: BeVietnamPro-medium;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #FF601A;
+    border-radius: 0rem;
+    width:250px;
+    height: 60px;
+}
+
+.btn-saiba-mais:hover{
+    cursor:pointer;
+    border: unset;
+    scale: 1.05;
+}
+
+/*
+    sobre nos
+*/
+
+#sobre-nos{
+    margin-top: 100px;
+}
+
+#img-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-sobre img{
+    width: 70%;
+    height: 90%;
+}
+
+#info-sobre{
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#info-sobre h1, #info-sobre h2{
+    font-family: BeVietnamPro-bold;
+    font-size: 2rem;
+    color: #000000;  
+    margin-bottom: 40px;
+}
+
+#info-sobre h2{
+    font-size: 1.8rem;
+}
+
+#info-sobre h1{
+    text-align: center;
+}
+
+#info-sobre p{
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#btns-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#btns-sobre a{
+    all:unset;
+    text-decoration:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: BeVietnamPro-medium;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 0rem;
+    width:250px;
+    height: 60px;
+}
+
+#btns-sobre a:hover{
+    cursor:pointer;
+    border: unset;
+    scale: 1.01;
+}
+
+#btns-sobre div:first-child a{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+#btns-sobre div:first-child a:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+#btns-sobre div:last-child a{
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+
+#btns-sobre div:last-child a:hover{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/*
+    Saiba mais
+*/
+
+.box-saiba-mais{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    align-content: center;
+    z-index: 1005;
+    background-color: #000000;
+    padding: 2.5% 2.5%;
+    display: none;
+    /* display: inline-block; */
+}
+
+.box-fechar{
+    width: 100%;
+    z-index: 50px;
+}
+
+.box-fechar i{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: end;
+}
+
+.box-fechar i:hover{
+    cursor: pointer;
+    color: #FF601A;
+}
+
+.box-saiba-mais-aberto{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.box-saiba-mais-aberto h2, .box-saiba-mais-aberto p{
+    color: #FFFFFF;    
+}
+
+.box-saiba-mais-aberto h2{
+   text-align: center;
+   margin-bottom: 70px;
+}
+
+.box-saiba-mais-aberto p{
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.box-saiba-mais-aberto p::-webkit-scrollbar{
+    width:5px;
+}
+
+.box-saiba-mais-aberto p::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.box-saiba-mais-aberto p::-webkit-scrollbar-thumb{
+    background-color: #DCDCDC;
+    border-radius: 40px;
+}
+
+/* 
+    servicos
+*/
+#servicos{
+    margin-top: 70px;
+}
+
+#servicos h1, #servicos h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#servicos h1{
+    font-family: BeVietnamPro-bold;
+    color: #000000;
+    font-size: 2rem;
+}
+
+#servicos h2{
+    font-family: BeVietnamPro-medium;
+    font-size: 1.2rem;
+    margin-bottom: 70px;
+}
+
+#box-card-servicos{
+    padding: unset;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 25rem;
+    padding: 0 2.5% 2.5% 2.5%;
+    margin: auto;
+}
+
+.card-servicos:hover{
+    scale: 1.01;
+}
+
+.card-body{
+    padding: unset;
+}
+
+.card-servico-icon{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.card-servico-icon div{
+    width: 22%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcdcdc;
+}
+
+.card-servico-icon div i{
+    font-size: 4rem;
+}
+
+.card-title,.card-text{
+    text-align: start;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.card-title{
+    font-family: BeVietnamPro-medium;
+}
+
+
+/*
+    cta - contato
+*/
+
+.cta-contato{
+    width: 100%;
+    height: 400px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-contato div{
+     width: 60%;
+}
+
+.cta-contato div h3{
+    font-family: BeVietnamPro-medium;
+    font-size: 1.8rem;
+    color:#FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cta-contato div a{
+    all:unset;
+    text-decoration:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: BeVietnamPro-medium;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #FF601A;
+    border-radius: 0rem;
+    width:250px;
+    height: 60px;
+    margin: auto;
+}
+
+.cta-contato div a:hover{
+    cursor:pointer;
+    border: unset;
+    scale: 1.01;
+}
+
+/* 
+    Nosso time
+*/
+
+#time{
+    margin-top: 70px;
+}
+
+#time h1, #time h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#time h1{
+    font-family: BeVietnamPro-bold;
+    color: #000000;
+    font-size: 2rem;
+}
+
+#time h2{
+    font-family: BeVietnamPro-medium;
+    font-size: 1.2rem;
+    margin-bottom: 70px;
+}
+
+#box-card-time{
+    padding: unset;
+    display: flex;
+    align-items: center;
+}
+
+.card-time{
+    width: 15rem;
+    height: 300px;
+    padding: unset;
+    margin: auto;
+}
+
+.card-time:hover{
+    scale: 1.01;
+}
+
+.card-time-body{
+    padding: unset;
+}
+
+.img-time{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-time img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-time-title,.card-time-text{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.card-time-title{
+    font-family: BeVietnamPro-medium;
+}
+
+.redes-time{
+    text-align: center;
+}
+
+.redes-time a{
+    text-decoration: none;
+}
+
+.redes-time i{
+    color: #074058;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.redes-time i:hover{
+    cursor: pointer;
+    color: #000000;
+}
+
+/* 
+    depoimentos
+*/
+#depoimentos{
+    margin-top: 70px;
+}
+
+#depoimentos h1, #depoimentos h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#depoimentos h1{
+    font-family: BeVietnamPro-bold;
+    color: #000000;
+    font-size: 2rem;
+}
+
+#depoimentos h2{
+    font-family: BeVietnamPro-medium;
+    font-size: 1.2rem;
+    margin-bottom: 70px;
+}
+
+#box-card-depoimentos{
+    padding: unset;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+}
+
+#box-card-depoimentos > :nth-child(even){
+    position: relative;
+    left: 20%;
+}
+
+.depoimento{
+    width: 80%;
+    box-shadow: 1px 1px 7px #DCDCDC;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 15px 40px;
+}
+
+.depoimento .img-empresa img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 8px #DCDCDC;
+    position: relative;
+    top: 30px;
+}
+
+.depoimento p{
+    padding: 0 10%;
+    font-family: BeVietnamPro-medium;
+}
+
+.depoimento a{
+    text-decoration: none;
+    color: #074058;
+}
+
+.depoimento .nome{
+    color: #FF601A;
+    text-align: end;
+}
+
+@media screen and (max-width:1200px){
+
+    .vazio{
+        display: inline-block;
+        /* display: none; */
+        height: 50px;
+        background-color: red;
+    }
+
+    /* 
+        Banner
+    */
+    .carousel-caption h1,
+    .carousel-caption p,
+    .carousel-caption a{
+        bottom: 40px;
+    }
+    
+    /*
+        sobre nos
+    */
+
+    #sobre-nos{
+        margin-top: 40px;
+    }
+
+    #img-sobre{
+        width: 100%;
+    }
+
+    #img-sobre img{
+        width: 50%;
+        height: 80%;
+    }
+
+    #info-sobre{
+        width: 100%;
+    }
+
+    /*
+        cta - lead
+    */
+
+    .cta{
+        height: unset;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .cta form{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .cta form h3{
+        font-family: BeVietnamPro-medium;
+        font-size: 1.3rem;
+        margin-bottom: 25px;
+    }
+
+    .cta form p{
+        font-size: 1.1rem;
+    }
+
+   
+    #btn-cta-lead{
+        margin-top: 30px;
+    }
+
+    
+    /* 
+        servicos
+    */
+    
+    #box-card-servicos{
+        display: unset;
+    }
+
+    .card{
+        margin-bottom: 70px;
+    }
+    
+    /*
+        cta - contato
+    */
+
+    .cta-contato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cta-contato div{
+        padding-top: unset;
+        padding-right: 5%;
+    }
+
+    .cta-contato div h3{
+        font-size: 1.6rem;
+    }
+
+    /* 
+        Nosso time
+    */
+
+    #box-card-time{
+        width: 100%;
+        padding: unset;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .card-time{
+        width: 15rem;
+        height: 300px;
+        padding: unset;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+
+    /* 
+        depoimentos
+    */
+
+    #box-card-depoimentos{
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+        padding: 0 2.5%;
+    }
+
+    #box-card-depoimentos > :nth-child(even){
+        position: unset;
+        left: 0;
+    }
+
+    .depoimento{
+        width: 90%;
+        padding: 15px 40px;
+        margin: auto;
+        margin-bottom:40px;
+
+    }
+
+    .depoimento .img-empresa{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .depoimento .img-empresa img{
+        width: 70px;
+        height: 70px;
+        position: unset;
+        top: 00px;
+    }
+
+    .depoimento p{
+        padding: 0 0.5%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .depoimento .nome{
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width:800px){
+
+    /* 
+        banner
+    */
+
+    .carousel-caption{
+        height: 90%;
+        z-index: 10;
+        transition: .1s;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .carousel-caption h1,
+    .carousel-caption p,
+    .carousel-caption a{
+        position: relative;
+        top:0%;
+        left:0%;
+        text-align: center;
+    }
+
+    .carousel-caption h1{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .carousel-caption p{
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .banner-saiba-mais{
+        justify-content: center;
+    }
+
+    .btn-saiba-mais{
+        width:220px;
+        height: 60px;
+    }
+
+    /*
+        sobre nos
+    */
+
+    #sobre-nos{
+        margin-top: 80px;
+    }
+
+    #sobre-nos h2, #sobre-nos p{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #info-sobre h1, #info-sobre h2{
+        font-size: 1.5rem;
+    }
+
+    #img-sobre{
+        margin-bottom: 40px;
+    }
+
+    #img-sobre img{
+        width: 80%;
+        height: 80%;
+    }
+
+    /* 
+        Nossa localização
+    */
+
+    #mapa{
+        height: 300px;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+
+    /* 
+        banner
+    */
+
+    .carousel-inner{
+        width: 100%;
+        height: 100%;    
+    }
+
+    .carousel-caption h1,
+    .carousel-caption p,
+    .carousel-caption a{
+        bottom: 0px;
+    }
+
+    .carousel-caption h1{
+        font-size: 1rem;
+        display: none;
+    }
+
+    .carousel-caption p{
+        font-size: 1rem;
+        position: relative;
+        bottom: -20px;
+    }
+
+    .btn-saiba-mais{
+        width:160px;
+        height: 40px;
+    }
+
+    /*
+        sobre nos
+    */
+
+    #img-sobre{
+        margin-bottom: 70px;
+    }
+
+    #img-sobre{
+        margin-bottom: 50px;
+    }
+
+    #img-sobre img{
+        width: 90%;
+        height: 105%;
+    }
+
+    #btns-sobre{
+        display: inline-block;
+        justify-items: center;
+        width: 100%;
+    }
+
+    #btns-sobre div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: unset;
+        padding: unset;
+    }
+
+    #btns-sobre div:last-child a{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        top:20px;
+
+    }
+    
+    #btns-sobre a{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /*
+        cta - lead
+    */
+
+    #btn-cta-lead{
+        justify-content: center;
+    }
+
+    /* 
+        servicos
+    */
+
+    .card{
+        width: 90%;
+    }
+
+    /*
+        cta - contato
+    */
+
+    .cta-contato div h3{
+        font-size: 1.3rem;
+    }
+
+}
+
+

@@ -1,0 +1,142 @@
+body{
+    overflow-x: hidden;
+}
+
+/*
+    Navbar
+*/
+.navbar{
+    height: 100px;
+    background-color: #FFFFFF;
+    top: 0;
+}
+
+/* 
+    contato
+*/
+
+.titulo-pagina{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.titulo-pagina h1{
+    font-family: BeVietnamPro-bold;
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.titulo-pagina p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.box-links-contato{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
+}
+
+.box-links-contato,.links-contato{
+    display: flex;
+    align-items: center;
+}
+
+.links-contato{
+    margin-right: 50px;
+    font-size: 1.2rem;
+}
+
+.links-contato i{
+    margin-right: 10px;
+    color: #074058;
+}
+
+.contato-icons{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contato-icons:hover{
+    font-size: 1.22rem;
+}
+
+/* 
+    form
+*/
+
+.box-form{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+input{
+    height: 60px;
+    margin-bottom: 30px;
+    border: unset;
+    box-shadow: 1px 1px 2px #DCDCDC;
+}
+
+textarea{
+    height: 200px;
+    border: unset;
+    box-shadow: 1px 1px 2px #DCDCDC;
+    margin-bottom: 30px;
+}
+
+.box-btn-contato{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn-contato{
+    all: unset;
+    text-decoration:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: BeVietnamPro-medium;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #074058;
+    border: unset;
+    border-radius: 10px;
+    width: 84%;
+    height: 60px;
+    margin: auto;
+}
+
+.btn-contato{
+    cursor:pointer;
+    scale: 1.2;
+}
+
+@media screen and (max-width:800px){
+
+    /* 
+        contato
+    */
+    .box-links-contato{
+        display: inline-block;
+    }
+
+    .links-contato{
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+    }
+
+}
+
+
+@media screen and (max-width:500px){
+
+    .links-contato{
+        padding: unset;
+        font-size: .9rem;
+    }
+
+}
