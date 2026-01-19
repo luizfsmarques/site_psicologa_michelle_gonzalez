@@ -21,7 +21,7 @@
         <meta property="og:description" content="Psicoterapia com empatia e profissionalismo. Estamos aqui para te ouvir e apoiar no seu processo emocional.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.demonstracaomichellegonzalez.fronteiradigital.com">
-        <meta property="og:image" content="https://www.demonstracaomichellegonzalez.fronteiradigital.com/public/img/marca/marca-seo-whatsapp.png">
+        <meta property="og:image" content="https://www.demonstracaomichellegonzalez.fronteiradigital.com/marca-seo-whatsapp.png">
 
         <!-- SEO para Google -->
         <!-- <meta name="google-site-verification" content="drGofh66g7t7PNHIAlPmUrM0tk1YiUppxJRDheliUI4"> -->
