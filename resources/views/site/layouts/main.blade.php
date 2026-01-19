@@ -188,7 +188,7 @@
                 <div class="col-4" id="footer-col1">
                     <!-- <img src="{{asset('img/marca/marca-site.svg')}}" alt="marca no rodapé"> -->
                     <p>
-                        Desenvolvemos soluções jurídicas eficientes e personalizadas para a sua empresa.
+                        Cuidar da mente é essencial. Estamos aqui para oferecer escuta, apoio e orientação em cada etapa.
                     </p>
                     <div>
                         <!-- <a class="footer-icons-redes" href="">

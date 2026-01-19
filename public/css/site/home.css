@@ -325,6 +325,7 @@
     font-size: 1rem;
     padding-left: 1%;
     padding-right: 1%;
+    color: #000000;
 }
 
 .card-title{
@@ -638,6 +639,7 @@
     .cta-contato div{
         padding-top: unset;
         padding-right: 5%;
+        width: 80%;
     }
 
     .cta-contato div h3{
@@ -734,7 +736,7 @@
     .carousel-caption p,
     .carousel-caption a{
         position: relative;
-        top:0%;
+        top:20px;
         left:0%;
         text-align: center;
     }
@@ -809,23 +811,29 @@
     .carousel-caption h1,
     .carousel-caption p,
     .carousel-caption a{
+        top: 0px;
         bottom: 0px;
     }
 
     .carousel-caption h1{
         font-size: 1rem;
-        display: none;
+        /* display: none; */
     }
 
     .carousel-caption p{
-        font-size: 1rem;
+        font-size: .9rem;
         position: relative;
-        bottom: -20px;
+        top: 20px;
+        bottom: 0px;
+        display: none;
     }
 
     .btn-saiba-mais{
-        width:160px;
-        height: 40px;
+        width:150px;
+        height: 35px;
+        position: relative;
+        top: 20px;
+        font-size: .9rem;
     }
 
     /*
@@ -892,6 +900,10 @@
     /*
         cta - contato
     */
+
+    .cta-contato div{
+        width: 100%;
+    }
 
     .cta-contato div h3{
         font-size: 1.3rem;

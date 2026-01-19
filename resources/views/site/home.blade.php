@@ -49,11 +49,11 @@
                     <!-- <h1>Sobre nós</h1> -->
                     <h2>Um espaço de cuidado, escuta e acolhimento.  </h2>
                     <p>
-                        Aqui você encontra um consultório de psicologia dedicado a oferecer um espaço seguro, ético e acolhedor, onde cada pessoa é recebida com respeito, empatia e escuta atenta. Acreditamos que todo processo de cuidado começa pelo acolhimento, permitindo que você se sinta à vontade para falar, compreender suas emoções e enfrentar seus desafios no seu próprio tempo. Nosso compromisso é caminhar ao seu lado, promovendo autoconhecimento, equilíbrio emocional e qualidade de vida por meio de um atendimento humano e profissional.    
+                        Aqui você encontra um consultório de psicologia dedicado a oferecer um espaço seguro, ético e acolhedor, onde cada pessoa é recebida com respeito, empatia e escuta atenta.     
                     </p>
-                    <!-- <p>
-                        Nossa experiência e compromisso com resultados sólidos nos posicionam como um parceiro confiável na jornada de crescimento das empresas que atendemos.
-                    </p> -->
+                    <p>
+                        Acreditamos que todo processo de cuidado começa pelo acolhimento, permitindo que você se sinta à vontade para falar, compreender suas emoções e enfrentar seus desafios no seu próprio tempo. Nosso compromisso é caminhar ao seu lado, promovendo autoconhecimento, equilíbrio emocional e qualidade de vida por meio de um atendimento humano e profissional.
+                    </p>
                     <div id="btns-sobre">
                         <div>
                             <a id="btn-saiba-mais">Saiba mais</a>

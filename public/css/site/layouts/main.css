@@ -154,8 +154,8 @@ footer{
     #navbar{
         height: 70px;
         background-color: #FFFFFF;
-        border-bottom: 0.2px solid #DCDCDC;
         top: 0px;
+        border-bottom: 0.2px solid #DCDCDC;
         visibility: visible;
     }
     
@@ -167,8 +167,8 @@ footer{
     }
     
     .navbar-brand img{
-        width: 270px;
-        height: 50px;
+        width: 300px;
+        height: 65px;
     }
 
     .navbar-toggler{
@@ -216,11 +216,23 @@ footer{
         box-shadow: 1px 1px 2px #DCDCDC;
     }
 
+    .navbar-brand img{
+        position: relative;
+        left: -30%;
+    }
+
+    #navbar div{
+        border-bottom: 0.2px solid #DCDCDC;
+    }
+
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
 
-    
+    .navbar-brand img{
+        position: relative;
+        left: -60%;
+    }
 
 }
 
